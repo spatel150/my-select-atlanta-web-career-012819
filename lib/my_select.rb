@@ -5,5 +5,5 @@ def my_select(collection)
     my_selection << yield(collection[i])
     i += 1
   end 
-  collection
+  my_selection
 end
