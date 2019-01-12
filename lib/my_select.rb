@@ -1,6 +1,6 @@
 def my_select(collection)
-  i = 0
   my_selection = []
+  i = 0
   while i < collection.length
     if yield(collection[i]) == true
       my_selection << collection[i]
